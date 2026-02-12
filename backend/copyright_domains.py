@@ -1,0 +1,76 @@
+"""
+Known Publisher / Copyright Holder Database
+=============================================
+Domains mapped to publishers, risk levels, and reasons.
+"""
+
+HIGH_RISK_DOMAINS = {
+    "nytimes.com": {"publisher": "The New York Times", "reason": "Active AI litigation (NYT v. OpenAI)"},
+    "washingtonpost.com": {"publisher": "The Washington Post", "reason": "Major news publisher, restrictive TOS"},
+    "gettyimages.com": {"publisher": "Getty Images", "reason": "Active AI litigation (Getty v. Stability AI)"},
+    "reuters.com": {"publisher": "Reuters / Thomson Reuters", "reason": "Wire service, strict licensing"},
+    "wsj.com": {"publisher": "The Wall Street Journal / Dow Jones", "reason": "Paywalled premium content"},
+    "apnews.com": {"publisher": "Associated Press", "reason": "Wire service, licensing agreements required"},
+    "bbc.com": {"publisher": "BBC", "reason": "Public broadcaster, Crown Copyright restrictions"},
+    "bbc.co.uk": {"publisher": "BBC", "reason": "Public broadcaster, Crown Copyright restrictions"},
+    "cnn.com": {"publisher": "CNN / Warner Bros. Discovery", "reason": "Major news publisher"},
+    "bloomberg.com": {"publisher": "Bloomberg L.P.", "reason": "Financial data, premium content"},
+    "ft.com": {"publisher": "Financial Times / Nikkei", "reason": "Paywalled premium financial content"},
+    "economist.com": {"publisher": "The Economist", "reason": "Premium publisher, strict licensing"},
+    "nature.com": {"publisher": "Springer Nature", "reason": "Academic publisher, paywalled content"},
+    "sciencedirect.com": {"publisher": "Elsevier", "reason": "Academic publisher, strict copyright"},
+    "wiley.com": {"publisher": "John Wiley & Sons", "reason": "Academic publisher, strict copyright"},
+    "springer.com": {"publisher": "Springer Nature", "reason": "Academic publisher, paywalled content"},
+    "newyorker.com": {"publisher": "Condé Nast", "reason": "Premium magazine content"},
+    "wired.com": {"publisher": "Condé Nast", "reason": "Premium magazine content"},
+    "theatlantic.com": {"publisher": "The Atlantic", "reason": "Premium publisher"},
+    "latimes.com": {"publisher": "Los Angeles Times", "reason": "Major news publisher"},
+    "chicagotribune.com": {"publisher": "Chicago Tribune / Tribune Publishing", "reason": "Major news publisher"},
+    "usatoday.com": {"publisher": "USA Today / Gannett", "reason": "Major news publisher"},
+    "theguardian.com": {"publisher": "Guardian Media Group", "reason": "Major news publisher"},
+    "time.com": {"publisher": "TIME / Salesforce", "reason": "Premium magazine content"},
+    "forbes.com": {"publisher": "Forbes Media", "reason": "Premium business content"},
+    "shutterstock.com": {"publisher": "Shutterstock", "reason": "Stock imagery, strict licensing"},
+    "adobestock.com": {"publisher": "Adobe", "reason": "Stock imagery, strict licensing"},
+    "istockphoto.com": {"publisher": "iStock / Getty Images", "reason": "Stock imagery, strict licensing"},
+    "alamy.com": {"publisher": "Alamy", "reason": "Stock imagery, strict licensing"},
+    "penguin.com": {"publisher": "Penguin Random House", "reason": "Book publisher, full copyright"},
+    "harpercollins.com": {"publisher": "HarperCollins", "reason": "Book publisher, full copyright"},
+    "simonandschuster.com": {"publisher": "Simon & Schuster", "reason": "Book publisher, full copyright"},
+}
+
+MEDIUM_RISK_DOMAINS = {
+    "reddit.com": {"publisher": "Reddit Inc.", "reason": "User-generated, TOS restrictions, API licensing"},
+    "stackoverflow.com": {"publisher": "Stack Exchange", "reason": "CC BY-SA license, attribution required"},
+    "stackexchange.com": {"publisher": "Stack Exchange", "reason": "CC BY-SA license, attribution required"},
+    "quora.com": {"publisher": "Quora Inc.", "reason": "User-generated, TOS prohibits scraping"},
+    "medium.com": {"publisher": "Medium / A Medium Corporation", "reason": "Mixed licensing, some paywalled"},
+    "substack.com": {"publisher": "Substack", "reason": "Author-owned content, mixed licensing"},
+    "tumblr.com": {"publisher": "Tumblr / Automattic", "reason": "User-generated, TOS restrictions"},
+    "twitter.com": {"publisher": "X Corp.", "reason": "API restrictions, TOS prohibits bulk scraping"},
+    "x.com": {"publisher": "X Corp.", "reason": "API restrictions, TOS prohibits bulk scraping"},
+    "pinterest.com": {"publisher": "Pinterest", "reason": "User-uploaded images, mixed copyright"},
+    "flickr.com": {"publisher": "Flickr / SmugMug", "reason": "Mixed licenses, check per-image"},
+    "deviantart.com": {"publisher": "DeviantArt / Wix", "reason": "Artist-owned content, mixed licensing"},
+    "wordpress.com": {"publisher": "Automattic", "reason": "User-generated, mixed licensing"},
+    "blogspot.com": {"publisher": "Google / Blogger", "reason": "User-generated, mixed licensing"},
+    "goodreads.com": {"publisher": "Goodreads / Amazon", "reason": "User reviews, book metadata"},
+}
+
+LOW_RISK_DOMAINS = {
+    "wikipedia.org": {"publisher": "Wikimedia Foundation", "reason": "CC BY-SA 4.0, widely used for training"},
+    "arxiv.org": {"publisher": "arXiv / Cornell University", "reason": "Open access preprints"},
+    "github.com": {"publisher": "GitHub / Microsoft", "reason": "Check individual repo licenses"},
+    "gitlab.com": {"publisher": "GitLab", "reason": "Check individual repo licenses"},
+    "huggingface.co": {"publisher": "Hugging Face", "reason": "Model hub, check dataset licenses"},
+    "creativecommons.org": {"publisher": "Creative Commons", "reason": "Open license by definition"},
+    "archive.org": {"publisher": "Internet Archive", "reason": "Digital library, varied licenses"},
+    "gutenberg.org": {"publisher": "Project Gutenberg", "reason": "Public domain texts"},
+    "openlibrary.org": {"publisher": "Open Library / Internet Archive", "reason": "Open access library"},
+    "commoncrawl.org": {"publisher": "Common Crawl", "reason": "Open web crawl data"},
+    "zenodo.org": {"publisher": "Zenodo / CERN", "reason": "Open research data repository"},
+    "pubmed.ncbi.nlm.nih.gov": {"publisher": "NIH / NLM", "reason": "Open access biomedical literature"},
+    "biorxiv.org": {"publisher": "Cold Spring Harbor Laboratory", "reason": "Open access preprints"},
+    "medrxiv.org": {"publisher": "Cold Spring Harbor Laboratory", "reason": "Open access preprints"},
+    "data.gov": {"publisher": "U.S. Government", "reason": "Public domain government data"},
+}

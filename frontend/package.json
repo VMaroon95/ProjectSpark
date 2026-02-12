@@ -1,0 +1,9 @@
+{
+  "name": "projectspark-frontend",
+  "version": "1.0.0",
+  "description": "ProjectSpark — AI Governance & Evaluation Dashboard",
+  "private": true,
+  "scripts": {
+    "start": "npx serve -l 3000 ."
+  }
+}

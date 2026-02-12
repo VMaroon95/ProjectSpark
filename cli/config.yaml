@@ -1,0 +1,39 @@
+# ProjectSpark — Default Sweep Configuration
+# ============================================
+
+sweep:
+  default_model: "meta-llama/Llama-3-8B"
+  default_benchmark: "mmlu"
+  default_mode: "demo"
+
+  architectures:
+    - zero_shot
+    - chain_of_thought
+    - persona_based
+    - few_shot
+    - delimiter_heavy
+
+  subjects:
+    - stem
+    - humanities
+    - social_sciences
+    - other
+
+  output:
+    format: "json"          # json | csv
+    directory: "./results"
+    include_metadata: true
+    include_sensitivity: true
+
+  live_mode:
+    num_fewshot: 0
+    batch_size: "auto"
+    device: "auto"
+    trust_remote_code: true
+    max_samples: null        # null = full benchmark
+
+  display:
+    show_table: true
+    show_progress: true
+    decimal_places: 3
+    color_output: true

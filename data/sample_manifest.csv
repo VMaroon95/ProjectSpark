@@ -1,0 +1,32 @@
+source_url,domain,content_type,word_count,date_collected,license,copyright_holder
+https://en.wikipedia.org/wiki/Machine_learning,wikipedia.org,text/article,15230,2025-08-15,CC BY-SA 4.0,Wikimedia Foundation
+https://en.wikipedia.org/wiki/Artificial_intelligence,wikipedia.org,text/article,22410,2025-08-15,CC BY-SA 4.0,Wikimedia Foundation
+https://en.wikipedia.org/wiki/Natural_language_processing,wikipedia.org,text/article,11840,2025-09-01,CC BY-SA 4.0,Wikimedia Foundation
+https://arxiv.org/abs/2301.13848,arxiv.org,text/paper,8920,2025-07-20,Open Access,Authors
+https://arxiv.org/abs/2302.13971,arxiv.org,text/paper,12350,2025-07-20,Open Access,Authors
+https://arxiv.org/abs/2305.10403,arxiv.org,text/paper,9870,2025-08-01,Open Access,Authors
+https://github.com/huggingface/transformers,github.com,code/repository,245000,2025-09-10,Apache 2.0,Hugging Face
+https://github.com/pytorch/pytorch,github.com,code/repository,890000,2025-09-10,BSD-3-Clause,Meta Platforms
+https://www.nytimes.com/2025/06/15/technology/ai-regulation.html,nytimes.com,text/article,2840,2025-06-20,,The New York Times
+https://www.nytimes.com/2025/07/22/business/ai-copyright-law.html,nytimes.com,text/article,3210,2025-07-25,,The New York Times
+https://www.nytimes.com/2025/08/10/opinion/ai-ethics.html,nytimes.com,text/article,1890,2025-08-12,,The New York Times
+https://www.washingtonpost.com/technology/2025/05/ai-policy/,washingtonpost.com,text/article,2560,2025-05-20,,The Washington Post
+https://www.washingtonpost.com/opinions/2025/07/ai-future/,washingtonpost.com,text/article,1950,2025-07-15,,The Washington Post
+https://www.gettyimages.com/photos/ai-technology,gettyimages.com,image/photo,0,2025-06-01,Proprietary,Getty Images
+https://www.gettyimages.com/photos/machine-learning,gettyimages.com,image/photo,0,2025-06-01,Proprietary,Getty Images
+https://www.reuters.com/technology/ai-summit-2025/,reuters.com,text/article,1780,2025-09-05,,Thomson Reuters
+https://www.reuters.com/business/ai-investment-2025/,reuters.com,text/article,2100,2025-09-10,,Thomson Reuters
+https://www.wsj.com/articles/ai-earnings-impact-2025,wsj.com,text/article,3450,2025-08-20,,Dow Jones & Company
+https://www.reddit.com/r/MachineLearning/top,reddit.com,text/forum,45600,2025-07-01,TOS,Various Users
+https://www.reddit.com/r/artificial/top,reddit.com,text/forum,32100,2025-07-01,TOS,Various Users
+https://stackoverflow.com/questions/tagged/pytorch,stackoverflow.com,text/qa,89200,2025-08-15,CC BY-SA 4.0,Various Users
+https://stackoverflow.com/questions/tagged/transformers,stackoverflow.com,text/qa,67800,2025-08-15,CC BY-SA 4.0,Various Users
+https://www.bbc.com/news/technology-ai-2025,bbc.com,text/article,1920,2025-09-01,,BBC
+https://www.cnn.com/2025/08/25/tech/ai-regulation/index.html,cnn.com,text/article,2340,2025-08-28,,CNN
+https://www.bloomberg.com/news/ai-market-2025,bloomberg.com,text/article,2780,2025-09-05,,Bloomberg L.P.
+https://www.gutenberg.org/ebooks/84,gutenberg.org,text/book,78500,2025-06-01,Public Domain,Public Domain
+https://www.gutenberg.org/ebooks/1342,gutenberg.org,text/book,121000,2025-06-01,Public Domain,Public Domain
+https://quora.com/topic/Artificial-Intelligence,quora.com,text/qa,28400,2025-07-10,TOS,Various Users
+https://medium.com/@ai-researcher/llm-survey,medium.com,text/article,4560,2025-08-20,Various,Various Authors
+https://www.ft.com/content/ai-financial-impact,ft.com,text/article,3100,2025-09-01,,Financial Times
+https://data.gov/dataset/ai-research-funding,data.gov,data/csv,5200,2025-08-01,Public Domain,U.S. Government
