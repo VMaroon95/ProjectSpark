@@ -159,6 +159,27 @@ The `data/` directory includes:
 
 ---
 
+## 📊 Proof & Findings
+
+We tested Project Spark against real-world data. Here's what we found:
+
+### RedPajama Copyright Audit
+> "I found 79 copyrighted sources hidden in a 'Clean' open dataset."
+
+[Read the full findings →](tests/results/REDPAJAMA_FINDINGS.md)
+
+### Fragility Test: Llama-3-8B
+> "A model with 66.6% accuracy? Only if you ask the right way. Scores ranged from 64.2% to 71.8%."
+
+[Read the full findings →](tests/results/FRAGILITY_FINDINGS.md)
+
+### Copyright Ghost Test
+> "Most tools catch copy-pasting. Project Spark catches unauthorized training data provenance."
+
+[Read the full findings →](tests/results/COPYRIGHT_GHOST_FINDINGS.md)
+
+---
+
 ## Roadmap
 
 - [ ] Multi-model comparison (side-by-side sweeps)
