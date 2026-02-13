@@ -1,0 +1,310 @@
+{
+  "audit_id": "1c7011fc",
+  "timestamp": "2026-02-13T00:47:11.553126+00:00",
+  "test_description": "Copyright Ghost Test \u2014 paraphrased content with original source provenance",
+  "manifest": {
+    "total_entries": 40,
+    "nyt_entries": 10,
+    "wsj_entries": 5,
+    "wikipedia_entries": 10,
+    "arxiv_entries": 10,
+    "reddit_entries": 5
+  },
+  "results": {
+    "high_risk_detected": 15,
+    "medium_risk_detected": 5,
+    "low_risk_detected": 20,
+    "unknown": 0
+  },
+  "detection": {
+    "nyt_caught": 10,
+    "nyt_total": 10,
+    "wsj_caught": 5,
+    "wsj_total": 5,
+    "reddit_caught": 5,
+    "reddit_total": 5,
+    "false_negatives_high_risk": 0
+  },
+  "rows": [
+    {
+      "source_url": "https://www.nytimes.com/2024/01/10/technology/ai-training-data-0.html",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.nytimes.com/2024/01/11/technology/ai-training-data-1.html",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.nytimes.com/2024/01/12/technology/ai-training-data-2.html",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.nytimes.com/2024/01/13/technology/ai-training-data-3.html",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.nytimes.com/2024/01/14/technology/ai-training-data-4.html",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.nytimes.com/2024/01/15/technology/ai-training-data-5.html",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.nytimes.com/2024/01/16/technology/ai-training-data-6.html",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.nytimes.com/2024/01/17/technology/ai-training-data-7.html",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.nytimes.com/2024/01/18/technology/ai-training-data-8.html",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.nytimes.com/2024/01/19/technology/ai-training-data-9.html",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.wsj.com/articles/business-analysis-1",
+      "domain": "wsj.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium content",
+      "publisher": "The Wall Street Journal / Dow Jones"
+    },
+    {
+      "source_url": "https://www.wsj.com/articles/business-analysis-2",
+      "domain": "wsj.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium content",
+      "publisher": "The Wall Street Journal / Dow Jones"
+    },
+    {
+      "source_url": "https://www.wsj.com/articles/business-analysis-3",
+      "domain": "wsj.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium content",
+      "publisher": "The Wall Street Journal / Dow Jones"
+    },
+    {
+      "source_url": "https://www.wsj.com/articles/business-analysis-4",
+      "domain": "wsj.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium content",
+      "publisher": "The Wall Street Journal / Dow Jones"
+    },
+    {
+      "source_url": "https://www.wsj.com/articles/business-analysis-5",
+      "domain": "wsj.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium content",
+      "publisher": "The Wall Street Journal / Dow Jones"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Topic_0",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Topic_1",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Topic_2",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Topic_3",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Topic_4",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Topic_5",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Topic_6",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Topic_7",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Topic_8",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Topic_9",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2401.10000",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2401.10001",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2401.10002",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2401.10003",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2401.10004",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2401.10005",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2401.10006",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2401.10007",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2401.10008",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2401.10009",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://www.reddit.com/r/technology/comments/abc0/post_0",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.reddit.com/r/technology/comments/abc1/post_1",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.reddit.com/r/technology/comments/abc2/post_2",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.reddit.com/r/technology/comments/abc3/post_3",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.reddit.com/r/technology/comments/abc4/post_4",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    }
+  ]
+}

@@ -1,0 +1,1520 @@
+{
+  "audit_id": "568e08e5",
+  "timestamp": "2026-02-13T00:46:56.979620+00:00",
+  "summary": {
+    "total_sources": 204,
+    "high_risk_count": 79,
+    "medium_risk_count": 52,
+    "low_risk_count": 45,
+    "unknown_risk_count": 28,
+    "high_risk_percentage": 38.7,
+    "top_risky_domains": [
+      {
+        "domain": "nytimes.com",
+        "publisher": "The New York Times",
+        "risk_level": "high",
+        "count": 11,
+        "total_words": 25415
+      },
+      {
+        "domain": "bbc.com",
+        "publisher": "BBC",
+        "risk_level": "high",
+        "count": 9,
+        "total_words": 18939
+      },
+      {
+        "domain": "cnn.com",
+        "publisher": "CNN / Warner Bros. Discovery",
+        "risk_level": "high",
+        "count": 5,
+        "total_words": 11461
+      },
+      {
+        "domain": "washingtonpost.com",
+        "publisher": "The Washington Post",
+        "risk_level": "high",
+        "count": 5,
+        "total_words": 14758
+      },
+      {
+        "domain": "theguardian.com",
+        "publisher": "Guardian Media Group",
+        "risk_level": "high",
+        "count": 4,
+        "total_words": 12494
+      },
+      {
+        "domain": "bloomberg.com",
+        "publisher": "Bloomberg L.P.",
+        "risk_level": "high",
+        "count": 4,
+        "total_words": 7623
+      },
+      {
+        "domain": "forbes.com",
+        "publisher": "Forbes Media",
+        "risk_level": "high",
+        "count": 4,
+        "total_words": 11405
+      },
+      {
+        "domain": "reuters.com",
+        "publisher": "Reuters / Thomson Reuters",
+        "risk_level": "high",
+        "count": 3,
+        "total_words": 4019
+      },
+      {
+        "domain": "wsj.com",
+        "publisher": "The Wall Street Journal / Dow Jones",
+        "risk_level": "high",
+        "count": 3,
+        "total_words": 8214
+      },
+      {
+        "domain": "nature.com",
+        "publisher": "Springer Nature",
+        "risk_level": "high",
+        "count": 3,
+        "total_words": 5218
+      }
+    ],
+    "recommendations": [
+      "\u26a0\ufe0f  79 high-risk sources detected \u2014 remove or obtain licensing agreements before training.",
+      "\u26a1 52 medium-risk sources \u2014 verify attribution requirements and TOS compliance.",
+      "\u2753 28 sources from unknown domains \u2014 conduct manual copyright review.",
+      "\ud83d\udccb Generate a Federal Disclosure Form for regulatory filing."
+    ]
+  },
+  "rows": [
+    {
+      "source_url": "https://www.theguardian.com/article/4483-content-3",
+      "domain": "theguardian.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "Guardian Media Group"
+    },
+    {
+      "source_url": "https://blogspot.com/c4-cleaned/7049",
+      "domain": "blogspot.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Google / Blogger"
+    },
+    {
+      "source_url": "https://www.arxiv.org/article/4502-content-0",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://www.example.com/article/2964-content-8",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.example.com/article/1936-content-1",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.nytimes.com/article/4657-content-2",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://github.com/user6/repo6/blob/main/file.py",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://penguin.com/books/898",
+      "domain": "penguin.com",
+      "risk_level": "high",
+      "reason": "Book publisher, full copyright",
+      "publisher": "Penguin Random House"
+    },
+    {
+      "source_url": "https://www.wikipedia.org/article/8579-content-1",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.example.com/article/9701-content-3",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.bbc.com/article/2519-content-3",
+      "domain": "bbc.com",
+      "risk_level": "high",
+      "reason": "Public broadcaster, Crown Copyright restrictions",
+      "publisher": "BBC"
+    },
+    {
+      "source_url": "https://www.github.com/article/1958-content-4",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://www.randomsite.org/article/7868-content-0",
+      "domain": "randomsite.org",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.personalblog.net/article/3170-content-3",
+      "domain": "personalblog.net",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.cnn.com/article/1711-content-0",
+      "domain": "cnn.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "CNN / Warner Bros. Discovery"
+    },
+    {
+      "source_url": "https://www.example.com/article/1998-content-0",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.arxiv.org/article/7396-content-3",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://www.reddit.com/article/6310-content-6",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.economist.com/article/8019-content-1",
+      "domain": "economist.com",
+      "risk_level": "high",
+      "reason": "Premium publisher, strict licensing",
+      "publisher": "The Economist"
+    },
+    {
+      "source_url": "https://www.reuters.com/article/4752-content-2",
+      "domain": "reuters.com",
+      "risk_level": "high",
+      "reason": "Wire service, strict licensing",
+      "publisher": "Reuters / Thomson Reuters"
+    },
+    {
+      "source_url": "https://www.cnn.com/article/4150-content-4",
+      "domain": "cnn.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "CNN / Warner Bros. Discovery"
+    },
+    {
+      "source_url": "https://www.quora.com/article/1117-content-1",
+      "domain": "quora.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS prohibits scraping",
+      "publisher": "Quora Inc."
+    },
+    {
+      "source_url": "https://www.blogspot.com/article/4981-content-0",
+      "domain": "blogspot.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Google / Blogger"
+    },
+    {
+      "source_url": "https://www.wsj.com/article/6930-content-0",
+      "domain": "wsj.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium content",
+      "publisher": "The Wall Street Journal / Dow Jones"
+    },
+    {
+      "source_url": "https://www.washingtonpost.com/article/3615-content-4",
+      "domain": "washingtonpost.com",
+      "risk_level": "high",
+      "reason": "Major news publisher, restrictive TOS",
+      "publisher": "The Washington Post"
+    },
+    {
+      "source_url": "https://medium.com/c4-cleaned/1832",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    },
+    {
+      "source_url": "https://www.blogspot.com/article/7939-content-4",
+      "domain": "blogspot.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Google / Blogger"
+    },
+    {
+      "source_url": "https://www.nytimes.com/article/5506-content-1",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.reuters.com/article/5422-content-0",
+      "domain": "reuters.com",
+      "risk_level": "high",
+      "reason": "Wire service, strict licensing",
+      "publisher": "Reuters / Thomson Reuters"
+    },
+    {
+      "source_url": "https://www.theguardian.com/article/6168-content-0",
+      "domain": "theguardian.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "Guardian Media Group"
+    },
+    {
+      "source_url": "https://www.reddit.com/article/3927-content-0",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.personalblog.net/article/2127-content-4",
+      "domain": "personalblog.net",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.theatlantic.com/article/5119-content-1",
+      "domain": "theatlantic.com",
+      "risk_level": "high",
+      "reason": "Premium publisher",
+      "publisher": "The Atlantic"
+    },
+    {
+      "source_url": "https://www.bloomberg.com/article/4814-content-2",
+      "domain": "bloomberg.com",
+      "risk_level": "high",
+      "reason": "Financial data, premium content",
+      "publisher": "Bloomberg L.P."
+    },
+    {
+      "source_url": "https://www.reddit.com/article/6947-content-8",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.wikipedia.org/article/8956-content-7",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://blogspot.com/c4-cleaned/3426",
+      "domain": "blogspot.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Google / Blogger"
+    },
+    {
+      "source_url": "https://www.personalblog.net/article/2638-content-0",
+      "domain": "personalblog.net",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.bbc.com/article/3547-content-1",
+      "domain": "bbc.com",
+      "risk_level": "high",
+      "reason": "Public broadcaster, Crown Copyright restrictions",
+      "publisher": "BBC"
+    },
+    {
+      "source_url": "https://archive.org/books/919",
+      "domain": "archive.org",
+      "risk_level": "low",
+      "reason": "Digital library, varied licenses",
+      "publisher": "Internet Archive"
+    },
+    {
+      "source_url": "https://www.washingtonpost.com/article/1434-content-0",
+      "domain": "washingtonpost.com",
+      "risk_level": "high",
+      "reason": "Major news publisher, restrictive TOS",
+      "publisher": "The Washington Post"
+    },
+    {
+      "source_url": "https://www.personalblog.net/article/9808-content-1",
+      "domain": "personalblog.net",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.forbes.com/article/8573-content-3",
+      "domain": "forbes.com",
+      "risk_level": "high",
+      "reason": "Premium business content",
+      "publisher": "Forbes Media"
+    },
+    {
+      "source_url": "https://wikipedia.org/c4-cleaned/1722",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.cnn.com/article/7201-content-2",
+      "domain": "cnn.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "CNN / Warner Bros. Discovery"
+    },
+    {
+      "source_url": "https://www.wordpress.com/article/5562-content-2",
+      "domain": "wordpress.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Automattic"
+    },
+    {
+      "source_url": "https://www.wired.com/article/7916-content-0",
+      "domain": "wired.com",
+      "risk_level": "high",
+      "reason": "Premium magazine content",
+      "publisher": "Cond\u00e9 Nast"
+    },
+    {
+      "source_url": "https://www.wordpress.com/article/6413-content-0",
+      "domain": "wordpress.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Automattic"
+    },
+    {
+      "source_url": "https://gutenberg.org/books/315",
+      "domain": "gutenberg.org",
+      "risk_level": "low",
+      "reason": "Public domain texts",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "source_url": "https://www.nytimes.com/article/2424-content-4",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.github.com/article/5861-content-3",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://bbc.com/c4-cleaned/2891",
+      "domain": "bbc.com",
+      "risk_level": "high",
+      "reason": "Public broadcaster, Crown Copyright restrictions",
+      "publisher": "BBC"
+    },
+    {
+      "source_url": "https://www.chicagotribune.com/article/5315-content-1",
+      "domain": "chicagotribune.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "Chicago Tribune / Tribune Publishing"
+    },
+    {
+      "source_url": "https://www.medium.com/article/2133-content-2",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    },
+    {
+      "source_url": "https://www.arxiv.org/article/7209-content-2",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://medium.com/c4-cleaned/9004",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    },
+    {
+      "source_url": "https://www.reddit.com/article/1319-content-7",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.wordpress.com/article/3167-content-4",
+      "domain": "wordpress.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Automattic"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Article_5",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.medium.com/article/4946-content-0",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    },
+    {
+      "source_url": "https://www.nature.com/article/8651-content-0",
+      "domain": "nature.com",
+      "risk_level": "high",
+      "reason": "Academic publisher, paywalled content",
+      "publisher": "Springer Nature"
+    },
+    {
+      "source_url": "https://wikipedia.org/c4-cleaned/7939",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://example.com/c4-cleaned/1158",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.forbes.com/article/5010-content-2",
+      "domain": "forbes.com",
+      "risk_level": "high",
+      "reason": "Premium business content",
+      "publisher": "Forbes Media"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2304.12938",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://www.springer.com/article/9786-content-0",
+      "domain": "springer.com",
+      "risk_level": "high",
+      "reason": "Academic publisher, paywalled content",
+      "publisher": "Springer Nature"
+    },
+    {
+      "source_url": "https://www.cnn.com/article/9785-content-1",
+      "domain": "cnn.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "CNN / Warner Bros. Discovery"
+    },
+    {
+      "source_url": "https://stackexchange.com/questions/15075",
+      "domain": "stackexchange.com",
+      "risk_level": "medium",
+      "reason": "CC BY-SA license, attribution required",
+      "publisher": "Stack Exchange"
+    },
+    {
+      "source_url": "https://www.stackoverflow.com/article/6539-content-5",
+      "domain": "stackoverflow.com",
+      "risk_level": "medium",
+      "reason": "CC BY-SA license, attribution required",
+      "publisher": "Stack Exchange"
+    },
+    {
+      "source_url": "https://www.reddit.com/article/9317-content-2",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.time.com/article/2876-content-0",
+      "domain": "time.com",
+      "risk_level": "high",
+      "reason": "Premium magazine content",
+      "publisher": "TIME / Salesforce"
+    },
+    {
+      "source_url": "https://www.theguardian.com/article/4456-content-2",
+      "domain": "theguardian.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "Guardian Media Group"
+    },
+    {
+      "source_url": "https://www.github.com/article/7930-content-1",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://github.com/user8/repo8/blob/main/file.py",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://www.example.com/article/1931-content-4",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://reddit.com/c4-cleaned/4335",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.nature.com/article/2612-content-1",
+      "domain": "nature.com",
+      "risk_level": "high",
+      "reason": "Academic publisher, paywalled content",
+      "publisher": "Springer Nature"
+    },
+    {
+      "source_url": "https://www.bbc.com/article/6514-content-2",
+      "domain": "bbc.com",
+      "risk_level": "high",
+      "reason": "Public broadcaster, Crown Copyright restrictions",
+      "publisher": "BBC"
+    },
+    {
+      "source_url": "https://www.arxiv.org/article/1960-content-1",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2304.16745",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://stackexchange.com/questions/24168",
+      "domain": "stackexchange.com",
+      "risk_level": "medium",
+      "reason": "CC BY-SA license, attribution required",
+      "publisher": "Stack Exchange"
+    },
+    {
+      "source_url": "https://www.usatoday.com/article/8123-content-1",
+      "domain": "usatoday.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "USA Today / Gannett"
+    },
+    {
+      "source_url": "https://gutenberg.org/books/355",
+      "domain": "gutenberg.org",
+      "risk_level": "low",
+      "reason": "Public domain texts",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "source_url": "https://www.cnn.com/article/5803-content-3",
+      "domain": "cnn.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "CNN / Warner Bros. Discovery"
+    },
+    {
+      "source_url": "https://www.wikipedia.org/article/2528-content-5",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://github.com/user5/repo5/blob/main/file.py",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://www.bbc.com/article/6574-content-0",
+      "domain": "bbc.com",
+      "risk_level": "high",
+      "reason": "Public broadcaster, Crown Copyright restrictions",
+      "publisher": "BBC"
+    },
+    {
+      "source_url": "https://www.randomsite.org/article/7484-content-4",
+      "domain": "randomsite.org",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://github.com/user3/repo3/blob/main/file.py",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://nytimes.com/c4-cleaned/9900",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.wikipedia.org/article/2235-content-2",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.springer.com/article/3296-content-1",
+      "domain": "springer.com",
+      "risk_level": "high",
+      "reason": "Academic publisher, paywalled content",
+      "publisher": "Springer Nature"
+    },
+    {
+      "source_url": "https://www.newyorker.com/article/3504-content-1",
+      "domain": "newyorker.com",
+      "risk_level": "high",
+      "reason": "Premium magazine content",
+      "publisher": "Cond\u00e9 Nast"
+    },
+    {
+      "source_url": "https://www.reddit.com/article/2743-content-1",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.personalblog.net/article/9288-content-2",
+      "domain": "personalblog.net",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2304.15442",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://www.wordpress.com/article/9423-content-1",
+      "domain": "wordpress.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Automattic"
+    },
+    {
+      "source_url": "https://www.bloomberg.com/article/1750-content-0",
+      "domain": "bloomberg.com",
+      "risk_level": "high",
+      "reason": "Financial data, premium content",
+      "publisher": "Bloomberg L.P."
+    },
+    {
+      "source_url": "https://www.randomsite.org/article/4346-content-2",
+      "domain": "randomsite.org",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://github.com/user0/repo0/blob/main/file.py",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://www.randomsite.org/article/6183-content-1",
+      "domain": "randomsite.org",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://stackexchange.com/questions/39154",
+      "domain": "stackexchange.com",
+      "risk_level": "medium",
+      "reason": "CC BY-SA license, attribution required",
+      "publisher": "Stack Exchange"
+    },
+    {
+      "source_url": "https://github.com/user7/repo7/blob/main/file.py",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://blogspot.com/c4-cleaned/9938",
+      "domain": "blogspot.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Google / Blogger"
+    },
+    {
+      "source_url": "https://stackexchange.com/questions/70332",
+      "domain": "stackexchange.com",
+      "risk_level": "medium",
+      "reason": "CC BY-SA license, attribution required",
+      "publisher": "Stack Exchange"
+    },
+    {
+      "source_url": "https://www.chicagotribune.com/article/8433-content-0",
+      "domain": "chicagotribune.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "Chicago Tribune / Tribune Publishing"
+    },
+    {
+      "source_url": "https://reddit.com/c4-cleaned/3546",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.nytimes.com/article/1520-content-5",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.nytimes.com/article/2679-content-3",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.bbc.com/article/6635-content-5",
+      "domain": "bbc.com",
+      "risk_level": "high",
+      "reason": "Public broadcaster, Crown Copyright restrictions",
+      "publisher": "BBC"
+    },
+    {
+      "source_url": "https://www.bloomberg.com/article/5741-content-1",
+      "domain": "bloomberg.com",
+      "risk_level": "high",
+      "reason": "Financial data, premium content",
+      "publisher": "Bloomberg L.P."
+    },
+    {
+      "source_url": "https://www.randomsite.org/article/5915-content-5",
+      "domain": "randomsite.org",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.ft.com/article/8428-content-0",
+      "domain": "ft.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium financial content",
+      "publisher": "Financial Times / Nikkei"
+    },
+    {
+      "source_url": "https://www.theguardian.com/article/5386-content-1",
+      "domain": "theguardian.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "Guardian Media Group"
+    },
+    {
+      "source_url": "https://www.quora.com/article/4770-content-0",
+      "domain": "quora.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS prohibits scraping",
+      "publisher": "Quora Inc."
+    },
+    {
+      "source_url": "https://www.ft.com/article/6820-content-2",
+      "domain": "ft.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium financial content",
+      "publisher": "Financial Times / Nikkei"
+    },
+    {
+      "source_url": "https://www.blogspot.com/article/7669-content-1",
+      "domain": "blogspot.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Google / Blogger"
+    },
+    {
+      "source_url": "https://nytimes.com/c4-cleaned/9666",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://example.com/c4-cleaned/8239",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.latimes.com/article/7482-content-0",
+      "domain": "latimes.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "Los Angeles Times"
+    },
+    {
+      "source_url": "https://bbc.com/c4-cleaned/5905",
+      "domain": "bbc.com",
+      "risk_level": "high",
+      "reason": "Public broadcaster, Crown Copyright restrictions",
+      "publisher": "BBC"
+    },
+    {
+      "source_url": "https://www.stackoverflow.com/article/7118-content-1",
+      "domain": "stackoverflow.com",
+      "risk_level": "medium",
+      "reason": "CC BY-SA license, attribution required",
+      "publisher": "Stack Exchange"
+    },
+    {
+      "source_url": "https://www.example.com/article/8811-content-2",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://example.com/c4-cleaned/8007",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.reuters.com/article/6313-content-1",
+      "domain": "reuters.com",
+      "risk_level": "high",
+      "reason": "Wire service, strict licensing",
+      "publisher": "Reuters / Thomson Reuters"
+    },
+    {
+      "source_url": "https://www.washingtonpost.com/article/4611-content-2",
+      "domain": "washingtonpost.com",
+      "risk_level": "high",
+      "reason": "Major news publisher, restrictive TOS",
+      "publisher": "The Washington Post"
+    },
+    {
+      "source_url": "https://reddit.com/c4-cleaned/4450",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.latimes.com/article/3340-content-1",
+      "domain": "latimes.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "Los Angeles Times"
+    },
+    {
+      "source_url": "https://www.github.com/article/3536-content-2",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://www.theatlantic.com/article/8668-content-0",
+      "domain": "theatlantic.com",
+      "risk_level": "high",
+      "reason": "Premium publisher",
+      "publisher": "The Atlantic"
+    },
+    {
+      "source_url": "https://www.example.com/article/4853-content-7",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.wikipedia.org/article/3724-content-6",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.github.com/article/8454-content-0",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://www.stackoverflow.com/article/9479-content-2",
+      "domain": "stackoverflow.com",
+      "risk_level": "medium",
+      "reason": "CC BY-SA license, attribution required",
+      "publisher": "Stack Exchange"
+    },
+    {
+      "source_url": "https://medium.com/c4-cleaned/5325",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    },
+    {
+      "source_url": "https://www.wired.com/article/7304-content-1",
+      "domain": "wired.com",
+      "risk_level": "high",
+      "reason": "Premium magazine content",
+      "publisher": "Cond\u00e9 Nast"
+    },
+    {
+      "source_url": "https://www.medium.com/article/2403-content-1",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    },
+    {
+      "source_url": "https://www.randomsite.org/article/6180-content-6",
+      "domain": "randomsite.org",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://wikipedia.org/c4-cleaned/6464",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://github.com/user9/repo9/blob/main/file.py",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://www.medium.com/article/5342-content-5",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    },
+    {
+      "source_url": "https://www.latimes.com/article/3287-content-2",
+      "domain": "latimes.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "Los Angeles Times"
+    },
+    {
+      "source_url": "https://www.blogspot.com/article/2545-content-2",
+      "domain": "blogspot.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Google / Blogger"
+    },
+    {
+      "source_url": "https://www.wikipedia.org/article/4006-content-0",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Article_4",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.forbes.com/article/3803-content-1",
+      "domain": "forbes.com",
+      "risk_level": "high",
+      "reason": "Premium business content",
+      "publisher": "Forbes Media"
+    },
+    {
+      "source_url": "https://www.randomsite.org/article/1152-content-7",
+      "domain": "randomsite.org",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.medium.com/article/3060-content-3",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    },
+    {
+      "source_url": "https://www.sciencedirect.com/article/2790-content-0",
+      "domain": "sciencedirect.com",
+      "risk_level": "high",
+      "reason": "Academic publisher, strict copyright",
+      "publisher": "Elsevier"
+    },
+    {
+      "source_url": "https://www.stackoverflow.com/article/2982-content-3",
+      "domain": "stackoverflow.com",
+      "risk_level": "medium",
+      "reason": "CC BY-SA license, attribution required",
+      "publisher": "Stack Exchange"
+    },
+    {
+      "source_url": "https://www.sciencedirect.com/article/4139-content-1",
+      "domain": "sciencedirect.com",
+      "risk_level": "high",
+      "reason": "Academic publisher, strict copyright",
+      "publisher": "Elsevier"
+    },
+    {
+      "source_url": "https://www.medium.com/article/9835-content-7",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    },
+    {
+      "source_url": "https://www.example.com/article/2312-content-5",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.medium.com/article/8787-content-4",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    },
+    {
+      "source_url": "https://www.forbes.com/article/5374-content-0",
+      "domain": "forbes.com",
+      "risk_level": "high",
+      "reason": "Premium business content",
+      "publisher": "Forbes Media"
+    },
+    {
+      "source_url": "https://github.com/user2/repo2/blob/main/file.py",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://penguin.com/books/995",
+      "domain": "penguin.com",
+      "risk_level": "high",
+      "reason": "Book publisher, full copyright",
+      "publisher": "Penguin Random House"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Article_0",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.wikipedia.org/article/2604-content-3",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.wordpress.com/article/4510-content-3",
+      "domain": "wordpress.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Automattic"
+    },
+    {
+      "source_url": "https://www.newyorker.com/article/1771-content-0",
+      "domain": "newyorker.com",
+      "risk_level": "high",
+      "reason": "Premium magazine content",
+      "publisher": "Cond\u00e9 Nast"
+    },
+    {
+      "source_url": "https://harpercollins.com/books/735",
+      "domain": "harpercollins.com",
+      "risk_level": "high",
+      "reason": "Book publisher, full copyright",
+      "publisher": "HarperCollins"
+    },
+    {
+      "source_url": "https://www.example.com/article/1651-content-9",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.nytimes.com/article/2824-content-0",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://simonandschuster.com/books/342",
+      "domain": "simonandschuster.com",
+      "risk_level": "high",
+      "reason": "Book publisher, full copyright",
+      "publisher": "Simon & Schuster"
+    },
+    {
+      "source_url": "https://www.washingtonpost.com/article/5557-content-3",
+      "domain": "washingtonpost.com",
+      "risk_level": "high",
+      "reason": "Major news publisher, restrictive TOS",
+      "publisher": "The Washington Post"
+    },
+    {
+      "source_url": "https://www.reddit.com/article/3504-content-3",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.wsj.com/article/3266-content-1",
+      "domain": "wsj.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium content",
+      "publisher": "The Wall Street Journal / Dow Jones"
+    },
+    {
+      "source_url": "https://www.personalblog.net/article/7054-content-5",
+      "domain": "personalblog.net",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.blogspot.com/article/8062-content-3",
+      "domain": "blogspot.com",
+      "risk_level": "medium",
+      "reason": "User-generated, mixed licensing",
+      "publisher": "Google / Blogger"
+    },
+    {
+      "source_url": "https://gutenberg.org/books/205",
+      "domain": "gutenberg.org",
+      "risk_level": "low",
+      "reason": "Public domain texts",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "source_url": "https://arxiv.org/abs/2304.16755",
+      "domain": "arxiv.org",
+      "risk_level": "low",
+      "reason": "Open access preprints",
+      "publisher": "arXiv / Cornell University"
+    },
+    {
+      "source_url": "https://reddit.com/c4-cleaned/5616",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://github.com/user4/repo4/blob/main/file.py",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://www.stackoverflow.com/article/6107-content-0",
+      "domain": "stackoverflow.com",
+      "risk_level": "medium",
+      "reason": "CC BY-SA license, attribution required",
+      "publisher": "Stack Exchange"
+    },
+    {
+      "source_url": "https://www.quora.com/article/1964-content-2",
+      "domain": "quora.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS prohibits scraping",
+      "publisher": "Quora Inc."
+    },
+    {
+      "source_url": "https://www.wikipedia.org/article/9856-content-4",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://bbc.com/c4-cleaned/3200",
+      "domain": "bbc.com",
+      "risk_level": "high",
+      "reason": "Public broadcaster, Crown Copyright restrictions",
+      "publisher": "BBC"
+    },
+    {
+      "source_url": "https://www.bloomberg.com/article/7227-content-3",
+      "domain": "bloomberg.com",
+      "risk_level": "high",
+      "reason": "Financial data, premium content",
+      "publisher": "Bloomberg L.P."
+    },
+    {
+      "source_url": "https://www.washingtonpost.com/article/9928-content-1",
+      "domain": "washingtonpost.com",
+      "risk_level": "high",
+      "reason": "Major news publisher, restrictive TOS",
+      "publisher": "The Washington Post"
+    },
+    {
+      "source_url": "https://www.reddit.com/article/9689-content-5",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://nytimes.com/c4-cleaned/3584",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.economist.com/article/9830-content-0",
+      "domain": "economist.com",
+      "risk_level": "high",
+      "reason": "Premium publisher, strict licensing",
+      "publisher": "The Economist"
+    },
+    {
+      "source_url": "https://www.reddit.com/article/3646-content-4",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.ft.com/article/3664-content-1",
+      "domain": "ft.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium financial content",
+      "publisher": "Financial Times / Nikkei"
+    },
+    {
+      "source_url": "https://www.nytimes.com/article/4811-content-7",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Article_2",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.randomsite.org/article/4910-content-3",
+      "domain": "randomsite.org",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://github.com/user1/repo1/blob/main/file.py",
+      "domain": "github.com",
+      "risk_level": "low",
+      "reason": "Check individual repo licenses",
+      "publisher": "GitHub / Microsoft"
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Article_3",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.example.com/article/2122-content-6",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://wikipedia.org/c4-cleaned/5291",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.quora.com/article/2104-content-3",
+      "domain": "quora.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS prohibits scraping",
+      "publisher": "Quora Inc."
+    },
+    {
+      "source_url": "https://en.wikipedia.org/wiki/Article_1",
+      "domain": "wikipedia.org",
+      "risk_level": "low",
+      "reason": "CC BY-SA 4.0, widely used for training",
+      "publisher": "Wikimedia Foundation"
+    },
+    {
+      "source_url": "https://www.bbc.com/article/2584-content-4",
+      "domain": "bbc.com",
+      "risk_level": "high",
+      "reason": "Public broadcaster, Crown Copyright restrictions",
+      "publisher": "BBC"
+    },
+    {
+      "source_url": "https://www.reddit.com/article/4923-content-9",
+      "domain": "reddit.com",
+      "risk_level": "medium",
+      "reason": "User-generated, TOS restrictions, API licensing",
+      "publisher": "Reddit Inc."
+    },
+    {
+      "source_url": "https://www.stackoverflow.com/article/4681-content-4",
+      "domain": "stackoverflow.com",
+      "risk_level": "medium",
+      "reason": "CC BY-SA license, attribution required",
+      "publisher": "Stack Exchange"
+    },
+    {
+      "source_url": "https://www.nature.com/article/7596-content-2",
+      "domain": "nature.com",
+      "risk_level": "high",
+      "reason": "Academic publisher, paywalled content",
+      "publisher": "Springer Nature"
+    },
+    {
+      "source_url": "https://www.wsj.com/article/9085-content-2",
+      "domain": "wsj.com",
+      "risk_level": "high",
+      "reason": "Paywalled premium content",
+      "publisher": "The Wall Street Journal / Dow Jones"
+    },
+    {
+      "source_url": "https://example.com/c4-cleaned/2232",
+      "domain": "example.com",
+      "risk_level": "unknown",
+      "reason": "Domain not in known database \u2014 manual review recommended",
+      "publisher": ""
+    },
+    {
+      "source_url": "https://www.nytimes.com/article/2535-content-6",
+      "domain": "nytimes.com",
+      "risk_level": "high",
+      "reason": "Active AI litigation (NYT v. OpenAI)",
+      "publisher": "The New York Times"
+    },
+    {
+      "source_url": "https://www.time.com/article/5371-content-1",
+      "domain": "time.com",
+      "risk_level": "high",
+      "reason": "Premium magazine content",
+      "publisher": "TIME / Salesforce"
+    },
+    {
+      "source_url": "https://www.usatoday.com/article/2827-content-0",
+      "domain": "usatoday.com",
+      "risk_level": "high",
+      "reason": "Major news publisher",
+      "publisher": "USA Today / Gannett"
+    },
+    {
+      "source_url": "https://www.medium.com/article/7932-content-6",
+      "domain": "medium.com",
+      "risk_level": "medium",
+      "reason": "Mixed licensing, some paywalled",
+      "publisher": "Medium / A Medium Corporation"
+    }
+  ]
+}
