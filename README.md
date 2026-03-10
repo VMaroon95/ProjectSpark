@@ -1,6 +1,7 @@
 # ⚡ Project Spark
 
-**AI Governance & Evaluation Platform**
+
+> **Part of the [meda-claw](https://github.com/VMaroon95/meda-claw) Governance Stack** — Install the full suite via `pip install meda-claw`**AI Governance & Evaluation Platform**
 
 *How much does a prompt really matter? And is your training data legally safe?*
 
